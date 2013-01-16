@@ -2,3 +2,26 @@
 body {
 	background: url(../images/subtle_grunge.png);
 }
+
+#canvas {
+	height: 300px;
+	width: 300px;
+	background-color: #000;
+    position: relative;
+}
+
+#score {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 4px;
+
+}
+
+.box {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    background-color: #FFF;
+}
